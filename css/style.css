@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto & display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/*inicio*/
+
+html{
+	font-size: 62.5%;
+}
+
+h1{
+	color: white;
+	font-size: 4rem;
+	font-family: 'Roboto', sans-serif;
+	margin: 5rem;
+	margin-left: 10rem;
+}
+
+/*inicia botonera*/
+
+	#nav{
+		font-size: 2rem;
+		background-color: rgba(28, 45, 53, 1.0);
+		padding: 0;
+		margin: 0;
+	}
+
+	#nav button{
+		color: white;
+	}
+
+	#nav ul li a{
+		color: white;
+		font-family: 'Roboto' , sans-serif;
+	}
+
+	#nav ul li a:hover{
+				font-weight: 600;
+				color: black;
+	}
+/*termina botonera*/
+
+body{ /*Imagen de fondo para pagina web*/
+	background-color:black;
+	overflow-x: fixed;
+}
+
+.flex{
+	display: flex;
+}
+
+
+main section p{/*Biografia de Kidd Keo*/
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.8rem ;
+	line-height: 2.2rem;
+	font-weight: 400;
+	width: 50%;
+	box-sizing: border-box;
+	margin-left: 10rem;
+	margin-top: 1rem;
+}
+
+.redimension{
+	width: 60rem;
+	height: 50rem;
+}
+
+
+section img{
+	margin-left: auto;
+	display: block;
+	margin: 1rem;
+	margin-right: 13rem;
+}
+
+footer{
+	background-color: rgba(37, 48, 51, 1.0);
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+	footer a img{
+		margin: 2rem;
+		margin-right: 10rem;
+	}
+
+
+@media(max-width: 480px) {
+
+	body nav a img{
+	margin-left: 1rem;
+	}
+
+	h1 {
+		margin: 1rem;
+		margin-left: 1rem; 
+	}
+
+	main.flex{
+		flex-direction: column;
+	}
+
+		main section p{/*Biografia de Kidd Keo*/
+			width: 100%;
+			box-sizing: border-box;
+			margin: 0rem;
+		 }
+
+		.redimension{
+			width: 100%;
+			height: auto;
+			align-content: center;
+			margin: 0rem
+		}
+
+	footer{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+		
+		footer a img{
+			margin: 2rem;
+
+			}
+}
+
+@media(max-width: 768px) {
+
+	body nav a img{
+	margin-left: 1rem;
+	}
+
+	h1 {
+		margin: 2rem;
+		margin-left: 1rem; 
+	}
+
+	main.flex{
+		flex-direction: column;
+	}
+
+		main section p{/*Biografia de Kidd Keo*/
+			width: 100%;
+			box-sizing: border-box;
+			margin: 0rem;
+			margin-left: 0rem;
+		 }
+
+		.redimension{
+			width: 100%;
+			height: auto;
+			align-content: center;
+			margin: 0rem
+		}
+
+	footer{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+		
+		footer a img{
+			margin: 2rem;
+			justify-content: space-between;
+			margin-left: 2rem;
+
+			}
+}
+
+
+/*conciertos.html*/
+
+.container{
+ display: flex;
+ justify-content: center;
+}
+
+.conciertos{
+	margin-left: 30rem;
+	margin-right: 30rem;
+	justify-content: center;
+}
+
+
+
+
+
+@media(max-width: 480px){
+	div img{
+		margin: 1rem auto;
+		width: 100%;
+		height: auto;
+	}
+
+	main.conciertos{
+			margin: 1rem;
+			justify-content: space-between;
+		}
+
+	section.flex{
+		flex-direction: column;
+		align-items: center;
+		margin: 0rem;
+
+	}
+
+		section input{
+			margin: 0rem;
+			}	
+}
+	
+@media(max-width: 768px){
+	div img{
+		margin: 1rem;
+		width: 100%;
+		height: auto;
+	}
+
+	main.conciertos{
+			margin: 1rem;
+			justify-content: space-between;
+		}
+
+	section.flex{
+		flex-direction: initial;
+		align-items: center;
+		margin: 2rem;
+
+	}
+
+		section input{
+			margin: 0rem;
+			}	
+}
+
+/*fotos.html*/
+
+/*inicia carrusel*/
+
+#fotos{
+	height: 100vh;
+	margin: 1rem;
+	padding-right: 2rem;
+}
+
+/*termina carrusel*/
+
+
+/*musica.html*/
+
+h2{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 3rem;
+	margin: 1rem;
+	margin-left: 10rem;
+}
+
+.justify-content{
+	justify-content: space-around;
+}
+
+iframe{
+	margin: 5rem;
+}
+
+
+/*contacto.html*/
+
+/*inicia formulario*/
+section #formulario{
+	font-family: 'Roboto', sans-serif;
+	padding-right: 0;
+}
+
+div label{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.4rem;
+}
